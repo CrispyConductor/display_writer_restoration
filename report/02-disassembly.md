@@ -108,7 +108,7 @@ with the case removed, accessing the switch from the front.  It can be done just
 sort can make it a bit easier.  The switch should push down easily since it isn't actually attached to the keycap.
 
 Then, with the switch held down, push the space bar to the right (while still holding it up).  It should slide a few
-mm to the right, the pull straight up out of the plastic inserts.  This should require essentially no force.  Then the
+mm to the right, then pull straight up out of the plastic inserts.  This should require essentially no force.  Then the
 stabilizer bar slides right off.
 
 ![Space bar removed](images/006_space_bar_removed.jpg)

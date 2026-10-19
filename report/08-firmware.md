@@ -7,6 +7,8 @@ been updated in a few years, but it seems to work fine.
 
 I'm a Linux user, so some of the process documented here is Linux-specific.  Some has cross-platform applicability.
 
+Note: All instructions here are specific to my system and the hardware components I used.
+
 ## Compiling the Firmware
 
 Clone the [repository](https://github.com/ploxiln/qmk_firmware) and check out the `pandrew_wip` branch.  It has a few git
@@ -33,7 +35,7 @@ To reset the controller and enter the bootloader, plug in the USB cable, then sh
 together (I used tweezers).  Short them together twice in rapid succession.
 
 If it worked, the controller will enter the bootloader for only a few seconds, so have the command to flash it
-ready.  When it enters the bootloader, the `dmesg` readout should show a `/dev/ttyACM0` (or simiar) device
+ready.  When it enters the bootloader, the `dmesg` readout should show a `/dev/ttyACM0` (or similar) device
 connected.
 
 The command to flash the firmware is:
@@ -47,7 +49,7 @@ If successful, the firmware should flash, and the controller should reboot as a 
 skipping the key-testing for now though and going straight to the diagnostic utility to confirm everything's
 working.
 
-## The Pandrew Diagnotic Utility
+## The Pandrew Diagnostic Utility
 
 The firmware repository also contains a diagnostic utility for xwhatsit controllers that is very helpful in confirming
 everything's functioning and debugging issues.
@@ -87,15 +89,15 @@ The layout I'm currently using is as follows:
 
 - Most alphanumeric keys work as expected.
 - LOCK, SHIFT, Paragraph, CODE, and ENTER are used for the modifiers Ctrl, Shift, Super, Alt, and Fn; respectively.
-- Nonstandard punctuation is roughly mapped positionally.  The 'degree' key becomes backslash/tilde, the fraction and bracket
+- Nonstandard punctuation is roughly mapped positionally.  The 'degree' key becomes backtick/tilde, the fraction and bracket
   keys become the usual brackets, and the superscript key becomes backslash.
 - The upper-right key block becomes a standard nav cluster; the remaining 2 keys are Print Screen and App Context.
-- The lower-right ley block is mapped to a T-nav; the remaining 4 keys are media/volume controls.
+- The lower-right key block is mapped to a T-nav; the remaining 4 keys are media/volume controls.
 - There are 2 positions for Esc; the 'INDEX' key (otherwise unused, but not in the usual position) and the upper-right key of
   the left-hand key block.
 
 I was conflicted about what to do with the left-hand key block.  The most obvious mapping is for the function keys F1-F10.
-However, I use F11 and F12 as least as much (and would prefer a consistent access pattern); and using one of these keys
+However, I use F11 and F12 at least as much (and would prefer a consistent access pattern); and using one of these keys
 for Esc better matches the expected position.  I ended up using the Fn layer for function keys (which maps both the number keys
 to F1-F12 and the left-hand keys to F1-F10) so I could put Esc in the left-hand block.  The lower 4 rows of the left-hand
 block are mapped to F13-F20 for software-defined functions.

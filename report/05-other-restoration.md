@@ -26,7 +26,7 @@ parallel pliers.
 
 ## Gasket Strip Foam
 
-Ealier, the plastic gasket strips were cleaned and the old foam removed.
+Earlier, the plastic gasket strips were cleaned and the old foam removed.
 
 ![Cleaned gasket strips](images/025_plastic_strip_clean.jpg)
 

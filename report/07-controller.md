@@ -4,7 +4,7 @@ At this point, I had the DisplayWriter fully mechanically restored.  All that re
 
 ## Controller Selection
 
-The DisplayWriter has 8 sense rows rather than the usual 4, so original xwhatsit controllers wouldn't work.  This left me with options:
+The DisplayWriter has 8 sense rows rather than the usual 4, so available standard xwhatsit controllers wouldn't work.  This left me with options:
 
 - [A TH-xwhatsit controller](https://github.com/listofoptions/TH-XWhatsIt)
 - [A Leyden jar controller](https://github.com/mymakercorner/Leyden_Jar)
@@ -14,6 +14,9 @@ it to work, but would probably take additional time, and would be more of a gamb
 
 The TH-xwhatsit controller explicitly supports DisplayWriters and comes with a plug board for the specific pinout.  It's a bit older,
 and doesn't appear recently maintained; but is tried and true.
+
+There may be a few other options as well; for example, I believe there's a DisplayWriter-specific variant of the original xwhatsit
+controller; but these seem to be the best options.
 
 I ended up going with TH-xwhatsit; I figured that would be the quickest and most reliable method for getting this working.
 And I'll always have the option to swap it out in the future if I feel like it.
@@ -59,7 +62,7 @@ from the bottom and pull until seated.
 ![Modding card edge connector](images/041_card_edge_connector.jpg)
 
 I bent the pins just enough so that opposite pins touched each other without a PCB inserted.  This might be a bit on the tight side; but
-it did provide an easy way to check that the pins were bent enough, both visually and with a continuity tester.
+it did provide an easy way to check that the pins were bent enough, both visually and with a continuity tester.  Do this at your own risk; a connector that's too tight could potentially damage the pad card.
 
 ## Cutting the Plug Board
 
@@ -85,7 +88,7 @@ up just remaking the board (I had spares from the JLC minimum order quantity) an
 
 Soldering everything together was pretty straightforward following the silk screen on the PCB.  I did end up including an
 extra unnecessary shift register (the DisplayWriter has fewer columns than most so technically only needs 2) since it
-wasn't immediately clear which one could be left off, and I had spares.  It *is* criticall to include the second comparator
+wasn't immediately clear which one could be left off, and I had spares.  It *is* critical to include the second comparator
 to handle the DisplayWriter's additional rows.
 
 This photo is pre-plugboard-cut (I didn't notice the fit issue until later).

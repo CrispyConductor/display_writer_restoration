@@ -1,5 +1,11 @@
 # A Newly-Restored DisplayWriter!
 
+![Finished DisplayWriter](images/finished_2.jpg)
+
+![Finished DisplayWriter](images/finished_1.jpg)
+
+![Finished DisplayWriter](images/finished_3.jpg)
+
 ![Finished DisplayWriter](images/post_restoration.jpg)
 
 Aaaaand ... done!  Sort-of.  For now.
@@ -22,6 +28,14 @@ It still isn't perfect.  The remaining defects are minor, but present:
   of near-"perfect" switches to use for all common keys and all keys larger than 1U.
 - There's no contamination shield anymore, so keeping it clean during use is mandatory.
 
+Of the original 84 switches, after restoration, 83 functioned correctly (with varying degrees of subjective smoothness
+and behavior).  The one switch with a fractured beam spring became a parts donor for other damaged components.  One
+additional switch (the caps lock switch) isn't usable for my purposes because it intentionally lacks a spring.
+
+Despite this success, I ended up swapping in 9 of the 10 spares.  This is less out of necessity and more about
+consolidating all the best-performing and most-durable switches onto the active keyboard.  I plan to keep the remainders
+as spares; possibly for future projects.
+
 ## Subjective Thoughts (Beam Springs Ooh La La)
 
 For me, this was the big point of curiosity, being my first ever experience with beam spring switches.  I intentionally
@@ -36,7 +50,7 @@ In a word, these switches are excellent - and in my opinion, the work was worth 
 The reviews I've read of them aren't kidding - beam spring switches really are unlike anything else I've tried, and I
 immediately feel like I don't want to go back to anything else.  The mechanism feels extremely "clean" and "sharp", like the
 quintessential example of what a keyboard switch should be.  Typing feels almost effortless.  Aside from the type
-feel, the switch sound in quite nice too.
+feel, the switch sound is quite nice too.
 
 On the DisplayWriter in particular, the space bar stabilizer does sound a bit clattery.  I've found references to IBM
 using grease at some of the interfaces here to prevent this, and I'll likely do the same, but I'm holding off until
@@ -73,7 +87,7 @@ to find the right mix yet.
 
 The big thing I want to resolve is the lack of a contamination shield.  Looking at other beam spring restoration posts, this seems like a nut which has yet to be satisfactorily cracked.
 
-I know that people get alone fine using these without shields; keeping them in pristine dust-free environments
+I know that people get along fine using these without shields; keeping them in pristine dust-free environments
 and using dust shields when not in use.  But I want to use this as an actual keyboard, the same way I use any
 other keyboard, without fear of a couple crumbs, a few loose hairs, or an errant splash destroying any of the
 switch feel or other work I've spent so much time on.

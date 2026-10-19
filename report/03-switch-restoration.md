@@ -74,12 +74,12 @@ The problems with the "yank it out with pliers" method are:
 - It transmits the substantial force through the fragile legs of the slider which are prone to breaking.
 - It often requires using a penetrating lubricant in contact with several different unknown vintage plastics, risking unknown degradation.
 - By hand, it's difficult to pull consistently in the right direction, potentially applying lateral force that can crack the slider.
-- Pliers score up the metal stem.  It's possible that these are galvalized for corrosion protection, so it's undesirable to bite through that covering.
+- Pliers score up the metal stem.  It's possible (not confirmed) that these are galvanized for corrosion protection, so it's undesirable to bite through that covering.
 - Yanking the stem out by hand is uncontrolled, and when it gives way, it's easy to let fragile parts go flying everywhere.
 
 Instead, I developed a 3d printed stem extraction fixture.  It includes a printed plastic clamp to grip the contours of the stem
 without damaging it, a slotted plate to brace the force against the main barrel of the slider instead of the legs, and a screw-jack
-to apply the extraction force in a slow, controller manner.
+to apply the extraction force in a slow, controlled manner.
 
 ![Stem extractor](images/stem_extractor.jpg)
 
@@ -114,7 +114,7 @@ check both sides for bends.)
 Straightening the stems is relatively easy.  I'd recommend flat (non-serrated) parallel-jaw pliers; I specifically used a Knipex pliers wrench.
 
 Most of the bends can be taken out just by firmly clamping the stem between the pliers jaws with some force.  I did this from a few different
-angles and a few different directions since some of the bends were compound.  There was always a small amount of remaining hysteresis in the
+angles and a few different directions since some of the bends were compound.  There was always a small amount of remaining springback in the
 steel though.  I managed to take out the last bits of the bends by clamping them in the pliers just ahead of the bend then manually applying
 force by hand in the opposite direction of the bend.  This usually took a few iterations to fully work out the bend.
 
@@ -149,7 +149,8 @@ plate, and of course didn't attempt to detach the beam spring from the slider.
 
 I've seen advice elsewhere to not clean the fly plates in an ultrasonic cleaner.  I'm not entirely sure why this is though.  There's nothing
 about it that seems particularly vulnerable.  The fly spring is indeed a bit fragile, but nowhere near as fragile as the beam spring
-attached to the slider.  I cleaned all of the fly plates+springs using this method with no evidence of any degradation.
+attached to the slider.  I cleaned all of the fly plates+springs using this method with no evidence of any degradation.  (This doesn't mean
+it's safe in every case - but in my case, it seems to have worked well with no damage.)
 
 For intact parts (specifically excepting the broken sliders), I designed 3d printed racks to hold the components in a manner loose enough
 to be effectively cleaned but retained sufficiently to prevent damage to fragile components.  This is especially important for the slider
@@ -198,7 +199,7 @@ of the crack to wick in from the other side.
 ![Slider glue fixture](images/021_slider_glue_fixture.jpg)
 
 For cracks/joints that intersected with a bearing surface, I also very gently sanded down any glue on the surface to ensure it didn't
-interfere, using a high-grit sanding spongs.  This was generally unnecessary for cracks on the slider legs, since the breakages
+interfere, using a high-grit sanding sponges.  This was generally unnecessary for cracks on the slider legs, since the breakages
 usually didn't occur on the bearing surfaces.  But another common failure was chips out of the slider barrel which is a bearing surface,
 so those got sanded.
 
@@ -216,7 +217,7 @@ Fortunately, none of the switch components had any rust on them.  And I want to 
 The fly spring and beam spring both seem to be made out of some type of stainless steel, and I didn't want to risk a coating interfering
 with the classic switch feel or sound, so I left these uncoated.
 
-The other metal switch parts - the return spring and stem - are not stainless.  I coated these with Starrett M1, a light plastic-safe
+The other metal switch parts - the return spring and stem - do not appear to be stainless.  I coated these with Starrett M1, a light plastic-safe
 rust protectant, and allowed them to dry.
 
 ## Housing Lubrication
@@ -228,7 +229,7 @@ bearing surfaces of the housing.
 
 A note about lubricants: Apparently, in recent years, several manufacturers have been reformulating their "dry" lubricants to be ...
 not dry.  The first several brands I checked had all substituted their PTFE for mineral oil, and somehow still labeled it a "dry lubricant".
-Not sure how they get away with that.  Anyway, I found that the Superlube-branded dry lubricant still uses actual PTFE, so went with that.
+Not sure how they get away with that.  Anyway, I found that the Superlube-branded dry lubricant (Superlube Dri-Film) still uses actual PTFE, so went with that.
 
 I wanted to be very sparing with the lubricant, and ensure it only made its way onto the bearing surfaces in the housing, to
 avoid any unexpectedly migrating down to the pad card or other locations.  For this, I designed another 3d printed fixture.
@@ -333,7 +334,7 @@ These labels wouldn't survive the cleaning process, so I only attached them afte
 For these labels, I had three main criteria:
 
 - Some kind of material that won't deteriorate over the long haul.
-- Something very thing to not risk interfering with the clearances between switches in the assembly.
+- Something very thin to not risk interfering with the clearances between switches in the assembly.
 - Something that could potentially be removed without too much trouble in the future.
 
 I ended up settling on polyimide/kapton tape.  Fine-tip sharpie was sufficient to write on it, but it did take a minute to dry.

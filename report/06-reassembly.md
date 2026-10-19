@@ -21,7 +21,7 @@ that they originally did.  They should look like arrows pointing to the left, wi
 on the right.
 
 The black lock mechanism inserts pop in from the back of the switch plate.  As noted earlier, this plastic seems to
-have become quite brittle, and the clips likely won't survive.  That's OK - the clips aren't require for operation,
+have become quite brittle, and the clips likely won't survive.  That's OK - the clips aren't required for operation,
 the inserts might just be a little unstable until the backing plate clamps them down.
 
 In my case, I had decided not to reinstall the original shift lock mechanism.  If I had reused the original switch
@@ -64,7 +64,7 @@ None of the other switches should have unique properties.
 Next, the pad card PCB sits on top of the switches.  The side with pairs of pads should face toward the switches; the
 side with single pads will face the rubber mat.
 
-Carefully place the PCB on top of the switches.  It will "float" on top of the spring-loaded pad cards.  Ensure the holes
+Carefully place the PCB on top of the switches.  It will "float" on top of the spring-loaded fly plates.  Ensure the holes
 in the PCB are aligned with the screw holes in the switch plate.  If it's not aligned, it's better to lift it up and carefully
 place it straight back down, rather than shifting it sideways (which can push on the fly plates).
 

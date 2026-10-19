@@ -22,7 +22,7 @@ It also removed the significant majority of the bulk of the switch foam, leaving
 
 After that stopped making progress, I had to consider more aggressive methods.  My main concern here was the coating on
 the metal plate.  This kind of plate typically has a microscopically thin chromate coating on top of a galvanized zinc
-layer.  Based on the preserved color of the plate, the chromate coating is still largely intact, and I wanted to keep it
+layer (this is typical, but not specifically confirmed in this instance).  Based on the preserved color of the plate, the chromate coating is still largely intact, and I wanted to keep it
 that way.  This immediately eliminates any abrasive cleaning methods and most scraping with metal blades; and certain
 solvents are potentially risky.
 
@@ -34,7 +34,7 @@ did remove all remaining tackiness.
 
 ![Switch Plate](images/022_cleaned_switch_plate.jpg)
 
-What remained at this point was a metal plate that was prett clean overall, but still had detectable and visible rough
+What remained at this point was a metal plate that was pretty clean overall, but still had detectable and visible rough
 spots where the foam was previously compressed.  The roughness was very shallow, less then a tenth of a mm, and was no
 longer tacky at all.
 
@@ -77,7 +77,7 @@ it by pulling in the opposite direction to keep the strip under tension.
 
 I put down a flat plastic surface, laid out the strip (goopy side up), soaked it in soapy water, then repeatedly scraped
 it with a plastic razor blade.  This removed the bulk of the deteriorated foam goop.  I then did the same thing but with
-isoproyl alcohol, and this cleaned up almost all of the rest of the foam, returning it to mostly-transparent.
+isopropyl alcohol, and this cleaned up almost all of the rest of the foam, returning it to mostly-transparent.
 
 ![Clean plastic strips](images/025_plastic_strip_clean.jpg)
 
@@ -144,7 +144,7 @@ I did attempt to pick out the embedded styrofoam pellets and other debris with t
 of it before getting to the point that removal would require destructive digging.
 
 Most of the paint on the base pan was intact; but there were several spots where paint was chipped, and the inside showed
-a few isolated corrosion spots.  The corrosion spots were mostly isolated and a more stable form of dark corrosion, so a full
+a few isolated corrosion spots.  The corrosion spots were mostly isolated and appear to be a more stable form of dark corrosion, so a full
 rust removal treatment likely isn't necessary.  I did coat any bare or corrosion spots with Starrett M1.
 
 ## Cleaning the Pad Card

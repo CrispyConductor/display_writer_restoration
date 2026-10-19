@@ -9,6 +9,15 @@ attempting similar projects.  There exist other write-ups of beam spring keyboar
 here I try to provide some additional detail, fill in some of the gaps in other write-ups, and
 add in additional discoveries.
 
+## Dedication
+
+Does a "dedication" even apply to a vintage keyboard restoration report?  Not sure, it seems a bit weird ...
+but in this case, I do feel that a dedication is deserved:
+
+This project is dedicated to my absolutely wonderful wife who has been incredibly patient with me,
+not only tolerating this project, but supporting it; through weeks of a cacophony of switch clicks and
+ultrasonic cleaner buzzing, and every flat surface in the house being consumed.
+
 ## Why?
 
 Why, in 2026, am I spending so much time restoring a nearly-half-century-old keyboard?
@@ -25,7 +34,7 @@ that led me to also want to restore an IBM original.
 Ellipse's attention to detail appears to be remarkable, and testimonials have been very positive.  However,
 a few reports describe that they don't quite match the feel - and definitely don't match the sound - of
 the originals.  Notably, several users report that the reproduction beam spring switches are less smooth
-than the originals.  I suspect this is an engineering trade-off related to Ellipse's efforts to shrink
+than the originals.  Just speculating, I suspect this is an engineering trade-off related to Ellipse's efforts to shrink
 the height of the switch while maintaining travel distance; it seems plausible that the reduced bearing
 surface and reduced distance between stabilizing springs could impact the smoothness and "floating"
 feeling I've heard described.  A shorter switch very clearly has numerous advantages in the modern world,
@@ -113,6 +122,123 @@ brittle or sensitive with age.
 When I had a choice between using a more powerful chemical versus a less powerful one plus more time/elbow grease,
 I usually picked the latter.  Unless I encountered particularly stubborn issues, most parts were cleaned with a
 weak dish soap solution and a soft toothbrush or rag.
+
+## Tools and Materials
+
+This is an approximate list of tools and materials I used in the process.  It may not be 100% complete, but should cover the essentials.
+
+### 3D Printed Fixtures and Parts
+
+[Link to Models](https://www.printables.com/model/1883866-beam-spring-ibm-keyboard-switches-maintenance-tool)
+
+- Switch removal tool: Depresses housing clips to remove switch from switch plate.
+- Stem extraction fixture: Provides controlled force for disassembling beam spring switch.
+- Fly spring go/no-go gauge: Simple check whether fly spring is in spec.
+- Fly spring symmetry gauge: Checks whether fly spring legs are symmetric.
+- Switch part cleaning racks: Safely contains small components for cleaning.
+- Slider glue alignment fixture: Holds broken slider fragments tightly in position for glue-up.
+- Switch housing lube mask: Ensures sprayed dry-lube only reaches intended areas.
+- Switch stem insertion fixture: Allows controlled application of force during switch reassembly.
+- Fly plate reassembly fixture: Safer and more repeatable "toothpick method" for assembling fly plate in-situ.
+- Foam alignment pins: Helps align replacement foam for switch plate.
+- Keycap chip inserts: 3d printed patches specific to the broken contours of my chipped keycaps.
+- Replacement shift-lock mechanism inserts: Switch plate inserts replacing original shift-lock inserts, without dust ingress holes.
+- Controller PCB support bracket: Additional support bracket for TH-xwhatsit controller PCB.
+
+### Adhesives and Chemicals
+
+- Thin liquid CA glue (Loctite brand): Various repairs, including casing and switch sliders.
+- Gel CA glue (Loctite brand): Various larger-gap repairs, including keycap chips.
+- 3M 72 spray adhesive: Repositionable soft-material adhesive for replacement switch plate foam.
+- 3M 468MP adhesive transfer tape: Adhesive for plastic gasket strips.
+- Starrett M1: Mild rust protectant for various metal pieces.
+- Super Lube Dri-Lube PTFE spray: Light lubrication in switch housings.
+- Isopropyl alcohol 99.9%: General cleaning solvent.
+- Mild dishwashing detergent: First cleaning pass for most parts.
+- Distilled water: Rinse of components before drying.
+- Mineral spirits: Additional removal of old deteriorated foam.
+- Goo gone: Additional removal of old deteriorated foam.
+
+### Replacement Materials
+
+- Ultra-soft EPDM foam sheet, McMaster #8647K102, 1/16" thick: Used for gasket strips along switch plate.
+- Pre-cut DisplayWriter switch foam: Purchased on eBay (could have cut myself from foam sheet).
+- Kapton tape: Labels on switch housings.
+- Fine-tip permanent marker: Labels on switch housings.
+- Masking tape: Masking and various uses.
+- Plastic sheet: Protecting paper info card during case cleaning.
+- Scotch tape: Encapsulating rubber feet.
+- 3D printer filament: I used PETG for pretty much everything; more important for some things than others.
+
+### Specific Spare Parts
+
+- Replacement beam spring o-rings: Ebay purchase.
+- Spare beam spring switches: Ebay purchase.
+- Replacements for missing DisplayWriter keycaps: Ebay purchase.
+
+### Cleaning Equipment
+
+- Ultrasonic cleaner: Used for cleaning most small parts and switch components.
+- Electric air duster (DataVac brand): Forced air drying, blowing water out of crevices.
+- Soft toothbrushes: General scrubbing.
+- Plastic razor blades and scraper: Scraping off old, degraded foam.
+- Soft cloths and towels: Cleaning larger components, protecting surfaces.
+- Paper towels: General cleanup, absorbing excess glue.
+- Component organizer: Keep small components organized.
+- Aluminum window screen: Used as part of small-parts ultrasonic cleaning bracket.
+- Craft wire: Holding o-rings and return springs for cleaning.
+- Vacuum cleaner: Removing degraded contamination shield fragments and misc dirt removal.
+
+### Mechanical Tools
+
+- Wire keycap puller: Keycap removal.
+- Slotted screwdrivers: Case screws and misc prying.
+- Nut drivers: Working with hex-head fasteners.
+- Flat-jawed parallel pliers: Straightening bent metal components; I specifically used Knipex pliers wrench.
+- Small smooth-jaw pliers: Various small-part manipulation.
+- Tweezers: Various small-part manipulation.  Broad-tip versions are useful.
+- Needle-nose pliers: Pin-modding card edge connector.
+- Height gauge: Characterizing individual switch travel behavior.  I used a Mitutoyo brand height gauge.
+- Flat surface: Reference surface for height measurements.
+- Machinists' square: Checking squareness of base pan brackets.
+- Plastic dead-blow hammer: Adjusting squareness of base pan brackets.
+- Wood blocks: Back-stop for adjusting base pan brackets.
+- Clamps: Holding down wood block back-stops.
+- Vise: Holding PCBs for modification.
+- Scalpel: Cutting replacement foam.
+- Fine-grit sanding sponge: Smoothing glue repairs on slider bearing surfaces.
+- Small files: Finishing cuts on PCBs and card edge connector.
+- Drill bits: Manually punching gasket strip foam holes.
+- Band saw: Cutting card edge connector to size.
+- Toothpicks or small wires: For traditional fly spring attachment and adjustment.
+
+### TH-Xwhatsit Controller Components
+
+- PCBs: Ordered from JLC.
+- Microcontroller module: SparkFun Pro Micro, DEV-12640, 5V / 16MHz
+- DAC: Microchip MCP4921-E/P
+- Quad comparator x2: Texas Instruments LM339N/NOPB
+- Shift register x3: Texas Instruments SN74HC595N
+- Card edge connector: EDAC 307-086-520-202
+- Resistors, capacitors, diodes: Per TH-xwhatsit BOM.
+- Pin headers & sockets
+- PCB standoff & screws: Size per BOM.
+- Ground wire: Ground connection to chassis.
+- Crimp terminal: For ground connection.
+- Micro-USB cable
+- Electrical tape: Padding USB cable to fit the strain relief.
+
+### Electronics Assembly Equipment
+
+- Soldering iron
+- Solder
+- Soldering flux
+- Flux cleaner/isopropyl alcohol
+- Flush cutters
+- Wire stripper
+- Terminal crimp tool
+- Multimeter
+- "Helping hands"
 
 
 
